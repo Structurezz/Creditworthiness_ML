@@ -1,0 +1,3 @@
+MonthlyIncome,JobSatisfaction,AccountBalance,SpendingPattern,CreditUtilization,RepaymentHistory,Creditworthiness
+6000,4,3113,0.10659428787987305,0.4581826118170375,Average,Medium Risk
+4000,3,3510,0.12328715732037905,0.606910143755654,Good,Medium Risk
