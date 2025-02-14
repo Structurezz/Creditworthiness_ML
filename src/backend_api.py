@@ -9,8 +9,8 @@ from dotenv import load_dotenv
 import certifi
 from src.data_preprocessing import validate_and_preprocess_input
 from src.prediction_service import load_model, call_openai_api
-from model_training import train_model
-from utils import ensure_directory
+from src.model_training import train_model
+from src.utils import ensure_directory
 import re
 
 # Load environment variables
