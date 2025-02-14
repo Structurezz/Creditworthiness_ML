@@ -7,7 +7,7 @@ from pymongo import MongoClient
 from pymongo.errors import PyMongoError
 from dotenv import load_dotenv
 import certifi
-from data_preprocessing import validate_and_preprocess_input
+from src.data_preprocessing import validate_and_preprocess_input
 from prediction_service import load_model, call_openai_api
 from model_training import train_model
 from utils import ensure_directory
